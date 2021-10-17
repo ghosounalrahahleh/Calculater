@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/app.css" />
+  <title>Calcolater(flex)</title>
+</head>
+
+<body>
+  <inpu class="container">
+    <span class="screen"></span>
+   
+    <input class="numbers" type="submit" value="1" onclick="insert(1)">
+    <input class="numbers" type="submit" value="2" onclick="insert(2)">
+    <input class="numbers" type="submit" value="3" onclick="insert(3)">
+    <input class="yellow mul" type="submit" value="*" onclick="insert('*')">
+    
+    <input class="numbers" type="submit" value="4" onclick="insert(4)">
+    <input class="numbers" type="submit" value="5" onclick="insert(5)">
+    <input class="numbers" type="submit" value="6" onclick="insert(6)">
+    <input class="yellow add" type="submit" value="+" onclick="insert('+')">
+    
+    <input class="numbers" type="submit" value="7" onclick="insert(7)">
+    <input class="numbers" type="submit" value="8" onclick="insert(8)">
+    <input class="numbers" type="submit" value="9" onclick="insert(9)">
+    <input class="yellow sub" type="submit" value="-" onclick="insert('-')">
+    
+    <input class="red clear" type="submit" value="C" onclick="c()">
+    <input class="numbers" type="submit" value="0" onclick="insert(0)">
+    <input class="equal" type="submit" value="=" onclick="equal()">
+    <input class="yellow div" type="submit" value="/" onclick="insert('/')">
+    </input>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
